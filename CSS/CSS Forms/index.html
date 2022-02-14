@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      textarea {
+        width: 200px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="fname">First name:</label><br />
+      <input
+        type="text"
+        id="fname"
+        name="fname"
+        value="Enter your first name"
+      /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" value="Enter your last name" />
+      <br />
+      <p>Choose your favorite Web language:</p>
+      <input type="radio" id="html" value="HTML" name="fav-lang" />
+      <label for="html">HTML</label><br />
+      <input type="radio" id="css" value="CSS" name="fav-lang" />
+      <label for="css">CSS</label><br />
+      <input type="radio" id="javascript" value="Javascript" name="fav-lang" />
+      <label for="javascript">Javascript</label><br />
+      <br />
+      <input type="checkbox" id="vehicle1" value="Bike" name="vehicle1" />
+      <label for="vehicle1">I have a bike</label> <br />
+      <input type="checkbox" id="vehicle2" value="Car" name="vehicle2" />
+      <label for="vehicle2">I have a car</label> <br />
+      <input type="checkbox" id="vehicle3" value="Boat" name="vehicle3" />
+      <label for="vehicle3">I have a boat</label> <br />
+      <br />
+
+      <label for="cars">choose a car</label>
+      <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+      </select>
+      <br />
+      <br />
+      <label for="message">Message Box</label>
+      <br />
+      <textarea name="data" id="message" cols="30" rows="10">
+        The cat was playing in the garden.
+      </textarea>
+      <br />
+      <br />
+
+      <button type="button" onclick="alert('Help')">Click me</button>
+      <br />
+      <br />
+
+      <input list="browsers" name="browser" />
+      <datalist id="browsers">
+        <option value="Internet Explorer"></option>
+      </datalist>
+      <br />
+      <br />
+      <label for="password">Password:</label> <br />
+      <input type="password" id="password" name="password" />
+      <br />
+      <br />
+      <input type="submit" value="Submit" /> <br> <br>
+      <label for="favcolor">Select your favorite color:</label>
+  <input type="color" id="favcolor" name="favcolor" value="#ff0000"> <br> <br>
+      <input type="reset">
+    </form>
+  </body>
+</html>
