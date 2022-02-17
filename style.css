@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+body {
+    margin: 0;
+    border: 0
+}
+header {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+.name {
+    width: 25%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 4px 4px 4px rgb(221, 184, 184);
+}
